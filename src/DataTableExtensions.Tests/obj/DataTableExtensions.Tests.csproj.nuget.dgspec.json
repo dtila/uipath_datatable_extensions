@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
+        "projectName": "DataTableExtensions.Tests",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\work\\uipath\\local packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj",
+        "projectName": "DataTableExtensions",
+        "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}

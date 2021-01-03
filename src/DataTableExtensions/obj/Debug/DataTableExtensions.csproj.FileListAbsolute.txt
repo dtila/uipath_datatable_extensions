@@ -1,0 +1,6 @@
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\bin\Debug\DataTableExtensions.dll
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\bin\Debug\DataTableExtensions.pdb
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\obj\Debug\DataTableExtensions.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\obj\Debug\DataTableExtensions.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\obj\Debug\DataTableExtensions.dll
+C:\Users\lenovo\source\repos\DataTableExtensions\DataTableExtensions\obj\Debug\DataTableExtensions.pdb

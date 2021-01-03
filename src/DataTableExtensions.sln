@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableExtensions", "DataTableExtensions\DataTableExtensions.csproj", "{500F0376-FECE-4A04-BE8E-3FBBBDFC9AEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableExtensions.Tests", "DataTableExtensions.Tests\DataTableExtensions.Tests.csproj", "{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500F0376-FECE-4A04-BE8E-3FBBBDFC9AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500F0376-FECE-4A04-BE8E-3FBBBDFC9AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500F0376-FECE-4A04-BE8E-3FBBBDFC9AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500F0376-FECE-4A04-BE8E-3FBBBDFC9AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C72FA62-5D65-4190-9916-1AA0F08B3A86}
+	EndGlobalSection
+EndGlobal

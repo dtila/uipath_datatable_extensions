@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dtila.datatable_extensions</id>
+    <version>1.0.0</version>
+    <title>DataTable Extensions</title>
+    <authors>Daniel Tila</authors>
+    <owners>daniel@automationpill.com</owners>
+    <projectUrl>https://github.com/dtila/uipath_datatable_extensions</projectUrl>
+    <icon>images\icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension operations for DataTable</description>
+    <!-- Copyright information -->
+    <copyright>Copyright ©2021 Automation Pill</copyright>
+
+    <!-- Tags appear in the gallery and can be used for tag searches -->
+    <tags>datatable split operations</tags>
+  </metadata>
+  <files>
+    <file src="..\src\bin\Release\*.dll" target="lib\net461" />
+  </files>
+</package>
