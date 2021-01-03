@@ -17,7 +17,7 @@ namespace DataTableExtensions.Tests
             var input = new DataTable();
             input.Columns.Add("Test", typeof(string));
 
-            input.Split(0, 10).Rows.Count.Should().Be(0);
+            input.Split(0, 10).DataTable.Rows.Count.Should().Be(0);
         }
 
         [Theory]
@@ -29,7 +29,7 @@ namespace DataTableExtensions.Tests
         {
             var input = GenerateDataTable(rowNumber);
 
-            input.Split(0, expectedSplit).Rows.Count.Should().Be(expectedSplit);
+            input.Split(0, expectedSplit).DataTable.Rows.Count.Should().Be(expectedSplit);
         }
 
         [Theory]
@@ -41,11 +41,11 @@ namespace DataTableExtensions.Tests
             var input = GenerateDataTable(rowNumber);
 
             var total = 0;
-            foreach (var batchDt in input.Split(batchSize))
+            foreach (var batch in input.Split(batchSize))
             {
-                total += batchDt.Rows.Count;
+                total += batch.DataTable.Rows.Count;
 
-                batchDt.Rows.Count.Should().BeLessOrEqualTo(batchSize);
+                batch.DataTable.Rows.Count.Should().BeLessOrEqualTo(batchSize);
             }
 
             total.Should().Be(rowNumber);

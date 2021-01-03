@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {}
+    "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {
+    "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
+        "projectUniqueName": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
         "projectName": "DataTableExtensions.Tests",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
+        "projectPath": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions.Tests\\obj\\",
+        "outputPath": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -29,8 +29,8 @@
         "frameworks": {
           "net461": {
             "projectReferences": {
-              "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj"
+              "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions\\DataTableExtensions.csproj": {
+                "projectPath": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions\\DataTableExtensions.csproj"
               }
             }
           }
@@ -68,11 +68,11 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj": {
+    "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions\\DataTableExtensions.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj",
+        "projectUniqueName": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions\\DataTableExtensions.csproj",
         "projectName": "DataTableExtensions",
-        "projectPath": "C:\\Users\\lenovo\\source\\repos\\DataTableExtensions\\DataTableExtensions\\DataTableExtensions.csproj"
+        "projectPath": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions\\DataTableExtensions.csproj"
       },
       "frameworks": {
         "net461": {}

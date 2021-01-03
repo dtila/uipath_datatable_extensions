@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableExtensions", "Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableExtensions.Tests", "DataTableExtensions.Tests\DataTableExtensions.Tests.csproj", "{ED09F383-42F8-45C4-9B36-7EE52EFB2E67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{3097FA7D-953F-42C9-92AA-9D504D4F5E64}"
+	ProjectSection(SolutionItems) = preProject
+		..\build\build.bat = ..\build\build.bat
+		..\build\project.nuspec = ..\build\project.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
