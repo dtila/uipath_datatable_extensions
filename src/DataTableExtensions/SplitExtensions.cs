@@ -1,16 +1,17 @@
-﻿using System;
+﻿using DataTableExtensions;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTableExtensions
+namespace System.Data
 {
     public static class SplitExtensions
     {
         /// <summary>
-        /// Split the current DataTable by the row number specified by parameters <paramref name="skip"/> and <paramref name="take"/>
+        /// Split the current DataTable by the row number
         /// </summary>
         /// <param name="input">The input <seealso cref="DataTable"/> that is given to be split</param>
         /// <param name="skip">Number of rows that are skipped from top to bottom</param>
@@ -28,7 +29,7 @@ namespace DataTableExtensions
         }
 
         /// <summary>
-        /// Split a DataTable equally in number of batches by the row number
+        /// Split a DataTable equally by row number, in number of batches
         /// </summary>
         /// <param name="input"></param>
         /// <param name="batchSize"></param>

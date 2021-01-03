@@ -2,19 +2,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>DataTable_Extensions</id>
-    <version>1.0.1</version>
+    <version>1.0.5</version>
     <title>DataTable Extensions</title>
     <authors>Daniel Tila</authors>
     <owners>daniel@automationpill.com</owners>
     <projectUrl>https://github.com/dtila/uipath_datatable_extensions</projectUrl>
     <iconUrl>https://github.com/dtila/uipath_datatable_extensions/raw/main/excel.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Extension operations for DataTable</description>
+    <description>
+Current the following operations are supported:
+ - Split by row number in smaller batches by top and count
+    </description>
     <!-- Copyright information -->
     <copyright>Copyright © 2021 Automation Pill</copyright>
 
     <!-- Tags appear in the gallery and can be used for tag searches -->
-    <tags>datatable split operations</tags>
+    <tags>datatable split bulk operations</tags>
   </metadata>
   <files>
     <file src="..\src\DataTableExtensions\bin\Release\*.dll" target="lib\net461" />
