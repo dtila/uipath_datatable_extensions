@@ -2,7 +2,8 @@
 
 
 Manipulate DataTable operations easily. No activities, just using functions.
-Buidl status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
+
+Build status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
 
 Currently the following operations are supported:
 - DataTable split
