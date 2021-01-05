@@ -1,8 +1,10 @@
 # UiPath DataTable extensions
 
+
 Manipulate DataTable operations easily. No activities, just using functions.
-![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
-Currently you the following operations are supported:
+Buidl status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
+
+Currently the following operations are supported:
 - DataTable split
 - DataTable batch size split
 
