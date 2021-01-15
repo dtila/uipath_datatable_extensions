@@ -11,7 +11,7 @@ Currently the following operations are supported:
 
 
 ## How to use it
-1. Install the package from [UiPath Go](https://marketplace.uipath.com/listings/datatable-extensions)
+1. Install the package from [UiPath Go](https://marketplace.uipath.com/listings/uipath-datatable-extensions)
 2. Call the ``Split`` function which is now available for each DataTable
 
 
