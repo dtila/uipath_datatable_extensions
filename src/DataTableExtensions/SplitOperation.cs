@@ -18,7 +18,7 @@ namespace DataTableExtensions
         public DataTable DataTable { get; }
 
         /// <summary>
-        /// The 0 indexed starting index where this DataTable was created from
+        /// The 0 indexed starting index, where this DataTable was created from
         /// </summary>
         public int StartingIndex { get; }
 

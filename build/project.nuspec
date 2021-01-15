@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>DataTable_Extensions</id>
-    <version>1.0.5</version>
+    <id>AutomationPill.DataTable.Activities</id>
+    <version>1.0.0</version>
     <title>DataTable Extensions</title>
     <authors>Daniel Tila</authors>
     <owners>daniel@automationpill.com</owners>
@@ -12,10 +12,12 @@
     <description>
 Current the following operations are supported:
  - Split by row number in smaller batches by top and count
+ 
+This is a open source project! If you want more methods included, visit the the project URL!
     </description>
     <!-- Copyright information -->
     <copyright>Copyright © 2021 Automation Pill</copyright>
-
+    <license type="file">https://raw.githubusercontent.com/dtila/uipath_datatable_extensions/main/LICENSE</license>
     <!-- Tags appear in the gallery and can be used for tag searches -->
     <tags>datatable split bulk operations</tags>
   </metadata>
