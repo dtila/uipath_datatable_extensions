@@ -18,6 +18,7 @@ This is a open source project! If you want more methods included, visit the the 
     <!-- Copyright information -->
     <copyright>Copyright © 2021 Automation Pill</copyright>
     <license type="file">https://raw.githubusercontent.com/dtila/uipath_datatable_extensions/main/LICENSE</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Tags appear in the gallery and can be used for tag searches -->
     <tags>datatable split bulk operations</tags>
   </metadata>
