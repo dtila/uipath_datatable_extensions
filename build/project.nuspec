@@ -8,7 +8,6 @@
     <owners>daniel@automationpill.com</owners>
     <projectUrl>https://github.com/dtila/uipath_datatable_extensions</projectUrl>
     <iconUrl>https://github.com/dtila/uipath_datatable_extensions/raw/main/excel.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 Current the following operations are supported:
  - Split by row number in smaller batches by top and count
@@ -17,13 +16,14 @@ This is a open source project! If you want more methods included, visit the the 
     </description>
     <!-- Copyright information -->
     <copyright>Copyright © 2021 Automation Pill</copyright>
-    <license type="file">https://raw.githubusercontent.com/dtila/uipath_datatable_extensions/main/LICENSE</license>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!-- Tags appear in the gallery and can be used for tag searches -->
     <tags>datatable split bulk operations</tags>
   </metadata>
   <files>
     <file src="..\src\DataTableExtensions\bin\Release\*.dll" target="lib\net461" />
     <file src="..\src\DataTableExtensions\bin\Release\*.xml" target="lib\net461" />
+	<file src="..\LICENSE" target="LICENSE" />
   </files>
 </package>

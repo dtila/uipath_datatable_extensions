@@ -1,7 +1,6 @@
 # UiPath DataTable extensions
 
-
-Manipulate DataTable operations easily. No activities, just using functions.
+One single place for DataTable operations. If you want an operation and you can not find it, [open a new issue](https://github.com/dtila/uipath_datatable_extensions/issues/new)
 
 Build status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
 
