@@ -4,7 +4,7 @@ One single place for DataTable operations. If you want an operation and you can 
 
 Build status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
 
-Currently the following operations are supported:
+Currently, the following operations are supported:
 - DataTable split
 - DataTable batch size split
 
