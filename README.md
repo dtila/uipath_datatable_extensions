@@ -1,6 +1,8 @@
 # UiPath DataTable extensions
 
-One single place for DataTable operations. If you want an operation and you can not find it, [open a new issue](https://github.com/dtila/uipath_datatable_extensions/issues/new)
+One single place for ``DataTable`` operations. This package aims to create activities around ``DataTable`` that are tested and guaranteed to work 100%. 
+
+If you want an operation and you can not find it, please [open a new issue](https://github.com/dtila/uipath_datatable_extensions/issues/new).
 
 Build status: ![Current Build status](https://github.com/dtila/uipath_datatable_extensions/workflows/CI/badge.svg?branch=main)
 
@@ -15,7 +17,7 @@ Currently, the following operations are supported:
 
 
 ## Example
-``Split`` function returns a collection of Split objects and can be used in a ``For Each`` activity:
+``Split`` function returns a collection of ``SplitOperation`` bjects that can be used in a ``For Each`` activity:
 ![](https://raw.githubusercontent.com/dtila/uipath_datatable_extensions/main/docs/split/foreach.PNG)
 
 Then change the ``ForEach`` activity type object from ``Object`` to ``SplitOperation`` like here:
