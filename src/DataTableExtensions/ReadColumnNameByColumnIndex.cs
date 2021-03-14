@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTableExtensions
+namespace AutomationPill.DataTable.Activities
 {
     public class ReadColumnNameByColumnIndex : CodeActivity
     {
