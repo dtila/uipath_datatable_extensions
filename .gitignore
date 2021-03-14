@@ -363,3 +363,5 @@ FodyWeavers.xsd
 /src/src.zip
 /examples/.local
 uipath_datatable_extensions.zip
+bin
+obj
