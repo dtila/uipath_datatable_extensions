@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "doKbDLsfajFKYJsho8n10qUBxSC7+H41VBfGyu2Qd8445jMYNaX9//h3jOIQYyXOyRwBb6oLU6COrWn1xWidog==",
+  "dgSpecHash": "so+UZeiRrOJb0fd8EsICL2WWHFO/Bug2irrMFX7LcdV4BB+NrpWnAYg35dQWXNuVR5dyX2PQbX0LaewQpOwywQ==",
   "success": true,
   "projectFilePath": "C:\\work\\uipath_datatable_extensions\\src\\DataTableExtensions.Tests\\DataTableExtensions.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lenovo\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>AutomationPill.DataTable.Activities</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>DataTable Extensions</title>
     <authors>Daniel Tila</authors>
     <owners>daniel@automationpill.com</owners>
@@ -10,7 +10,8 @@
     <iconUrl>https://github.com/dtila/uipath_datatable_extensions/raw/main/excel.png</iconUrl>
     <description>
 Current the following operations are supported:
- - Split by row number in smaller batches by top and count
+ - Split by row number
+ - Read column name by index
  
 This is a open source project! If you want more methods included, visit the the project URL!
     </description>
@@ -20,10 +21,14 @@ This is a open source project! If you want more methods included, visit the the 
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!-- Tags appear in the gallery and can be used for tag searches -->
     <tags>datatable split bulk operations</tags>
+    
+    <dependencies>
+      <dependency id="ClosedXML" version="0.87.1" />
+    </dependencies>
   </metadata>
   <files>
     <file src="..\src\DataTableExtensions\bin\Release\*.dll" target="lib\net461" />
     <file src="..\src\DataTableExtensions\bin\Release\*.xml" target="lib\net461" />
-	<file src="..\LICENSE" target="LICENSE" />
+	  <file src="..\LICENSE" target="LICENSE" />
   </files>
 </package>
